@@ -81,3 +81,23 @@ To utilize the weight conversion tool (`convert_weights.py`), please follow thes
    ```
 5. Successfully converted TensorFlow weights will be placed as `*.h5` format in the `converted_models` directory. By default, we generate two sets of weights from each HRNet (not HigherHRNet!) model: `[...].h5` with all four output tensors from the four resolution streams (`MULTI_RESOLUTION_OUTPUT = True`), and `[...]_single_res.h5` where only the single output tensor from the highest resolution branch is computed (`MULTI_RESOLUTION_OUTPUT = False`)
 
+
+## Citation
+If you find this work or code is helpful in your research, please cite the original authors:
+````
+@inproceedings{SunXLW19,
+  title={Deep High-Resolution Representation Learning for Human Pose Estimation},
+  author={Ke Sun and Bin Xiao and Dong Liu and Jingdong Wang},
+  booktitle={CVPR},
+  year={2019}
+}
+
+@article{WangSCJDZLMTWLX19,
+  title={Deep High-Resolution Representation Learning for Visual Recognition},
+  author={Jingdong Wang and Ke Sun and Tianheng Cheng and 
+          Borui Jiang and Chaorui Deng and Yang Zhao and Dong Liu and Yadong Mu and 
+          Mingkui Tan and Xinggang Wang and Wenyu Liu and Bin Xiao},
+  journal   = {TPAMI}
+  year={2019}
+}
+````
