@@ -1,0 +1,3 @@
+pytest>=7.4.0
+tensorflow==2.4.3
+# torch==1.7.1 --- Required only for weight conversion

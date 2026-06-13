@@ -1,0 +1,1 @@
+Place all downloaded (Higher)HRNet model weights that you want to convert to `hrnet-tensorflow` compatible weights here.
