@@ -26,6 +26,17 @@ SRC_WEIGHTS_DIR = "model_downloads"
 DST_WEIGHTS_DIR = "converted_models"
 
 
+
+#####################################################
+## MANUAL ADJUSTMENTS REQUIRED HERE!!!
+#####################################################
+##
+## Enable the models and corresponding weight files
+## that you want to convert by uncommenting
+## the n-th line in each list below.
+#####################################################
+
+
 models_and_configs = [
     # (hrnet, HRNetW18SmallV1Config()),
     # (hrnet, HRNetW18SmallV2Config()),
@@ -50,7 +61,7 @@ orig_weights = [
     # "HRNet_W18_C_ssld_pretrained.pth",
     # "HRNet_W18_C_cosinelr_cutmix_300epoch.pth.tar",
     # "hrnetv2_w30_imagenet_pretrained.pth",
-    # "hrnetv2_w32_imagenet_pretrained.pth",
+    "hrnetv2_w32_imagenet_pretrained.pth",
     # "hrnetv2_w40_imagenet_pretrained.pth",
     # "hrnetv2_w44_imagenet_pretrained.pth",
     # "hrnetv2_w48_imagenet_pretrained.pth",
